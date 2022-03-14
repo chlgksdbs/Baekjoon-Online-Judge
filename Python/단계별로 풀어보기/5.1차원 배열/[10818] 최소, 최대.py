@@ -3,9 +3,9 @@ arr = list(map(int, input().split()))
 arr_max = arr[0]
 arr_min = arr[0]
 for i in range(n):
-    if(arr_max < arr[i]):
+    if arr_max < arr[i]:
         arr_max = arr[i]
-    if(arr_min > arr[i]):
+    if arr_min > arr[i]:
         arr_min = arr[i]
 print(arr_min, arr_max)
 
