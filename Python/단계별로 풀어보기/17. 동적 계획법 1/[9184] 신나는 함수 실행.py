@@ -13,5 +13,5 @@ while True:
     if x == -1 and y == -1 and z == -1: # 종료조건
         break
     d = [[0, 0, 0] for _ in range(max(x, y, z))] # dp 테이블 생성
-    print(d)
+    
     print("w(", x, ", ", y, ", ", z, ") = ", w(x, y, z), sep='')
